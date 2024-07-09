@@ -10,3 +10,107 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* navigation style start here  */
+
+.navigation{
+    margin: 0px 130px;
+    /* border: 1px solid rebeccapurple; */
+}
+ .navigation_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px;
+    /* border: 1px solid red; */
+}
+.navigation_h3{
+    padding: 10px 0px;
+}
+.navigation_btn{
+
+}
+.navigation_btn button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+padding: 10px 20px;
+opacity: 0.8;
+background-color: transparent;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 600;
+cursor: pointer;
+text-align: center;
+
+}
+/* navigation style end here  */
+
+/* bannar section style start here  */
+.bannar_section{
+    background-image: url(../assets/Hero-bg.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+   
+}
+.bannar_img{
+width: 240px;
+height: 240px;
+margin: 0px auto;
+padding: 20px 0px;
+}
+.bannar_img_content{
+    width: 100%;
+    height: 100%;
+}
+.bannar_content{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bannar_h1_content{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.bannar_p_content{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.bannar_button_content{
+    margin: 25px 0px;
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33); 
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 10px 20px;
+cursor: pointer;
+text-align: center;
+}
+/* bannar section style end here  */
