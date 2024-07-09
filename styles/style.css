@@ -162,7 +162,7 @@ margin-top:50px
     justify-content: space-between;
     width: 85%;
 margin: 0px auto;
-/* border: 1px solid red; */
+
 background-color: white;
 border-radius: 8px;
 margin-bottom: 30px;
@@ -236,6 +236,9 @@ opacity: 0.7;
     flex-direction: column;
     gap: 30px;
 }
+/* .why_development style end here */
+/* .My Inspiration style start here */
+
 .my_inspiration_content{
    
     box-sizing: border-box;
@@ -243,12 +246,127 @@ border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 padding: 30px 70px;
 text-align: center;
+margin-bottom: 30px;
 
 }
 .my_inspiration_content iframe{
     border-radius: 16px;
 }
-/* .why_development style end here */
 
+/* .My Inspiration style start here */
+/* .My Current Target style start here */
+.my_current_target{
+    margin: 30px 0px;
+}
+.my_current_target_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.target_item{
+    padding: 20px;
+}
+.target_item img{
+    width: 55px;
+    height: 55px;
+}
+.t_i3{
+    border-radius: 16px;
 
+background: rgba(255, 223, 0, 0.05);
+}
+.t_i2{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.t_i1{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+.tar_cur_h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+}
+.tar_cur_p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+
+    text-align: left;
+    opacity: 0.7;
+    width: 250px;
+
+    margin-bottom: 15px;
+}
+.tar_cur_a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-bottom: 4px;
+  
+}
+
+/* .My Current Target style end here */
+/* .My Next Target style start here */
+.next_tar_content{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+margin: 10px 0px;
+padding: 20px 10px;
+}
+.next_tar_content{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+gap: 10px;
+align-items: center;
+}
+.next_tar_item_2{
+    flex-basis: 60%;
+    
+}
+.next_tar_item_1{
+    
+    width: 94px;
+    height: 90px;
+    padding: 10px;
+}
+.next_tar_item_1 img{
+    width: 100%;
+    height: 100%;
+}
+.next_p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+
+    text-align: left;
+    opacity: 0.7;
+    
+
+    margin-bottom: 15px;
+}
+
+/* .My Next Target style end here */
 /* main section style end here  */
