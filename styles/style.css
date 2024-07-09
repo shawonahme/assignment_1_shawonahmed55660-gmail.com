@@ -10,6 +10,32 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* common style start here  */
+.heading_section{
+text-align: center;
+padding: 50px 20px; 
+
+width: 85%;
+margin: 0px auto;
+margin-bottom: 30px;
+}
+.heading_content_h1{
+    padding-bottom: 30px;
+}
+.heading_content_p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+opacity: .7;
+
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* common style end here  */
+
+/* header section style start here  */
 /* navigation style start here  */
 
 .navigation{
@@ -114,3 +140,102 @@ cursor: pointer;
 text-align: center;
 }
 /* bannar section style end here  */
+
+/* header section style end here  */
+
+/* main section style start here  */
+
+
+main{
+    margin: 0px 130px;
+}
+/* .why_development style start here */
+.why_development{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+margin-top:50px
+}
+.main_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+margin: 0px auto;
+/* border: 1px solid red; */
+background-color: white;
+border-radius: 8px;
+
+}
+.item_1_content{
+    flex-basis: 60%;
+}
+.item_1_img{
+    flex-basis: 30%;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 30px 0px;
+}
+.item_1_img_1{
+    width: 100%;
+    height: 100%;
+    
+}
+.item_1_content{
+   margin: 30px 40px;
+}
+.item_1_h1{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 21px;
+font-weight: 700;
+line-height: 30px;
+padding-top: 10px;
+
+
+margin-bottom: 25px;
+}
+.item_1_p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+opacity: 0.7;
+
+
+
+
+}
+.item_btn{
+ 
+   
+    padding: 10px 20px;
+    opacity: 0.8;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 25px;
+}
+.main_item_2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main_content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+/* .why_development style end here */
+
+
+/* main section style end here  */
