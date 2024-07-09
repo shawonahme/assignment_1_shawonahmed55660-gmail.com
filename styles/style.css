@@ -9,7 +9,7 @@
 
 body{
     font-family: "Azeret Mono", monospace;
-  
+    text-underline-offset: 7px;
 }
 /* common style start here  */
 .heading_section{
