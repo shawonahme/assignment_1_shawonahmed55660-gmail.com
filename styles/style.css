@@ -9,6 +9,7 @@
 
 body{
     font-family: "Azeret Mono", monospace;
+  
 }
 /* common style start here  */
 .heading_section{
@@ -55,7 +56,7 @@ text-align: center;
 .navigation_btn{
 
 }
-.navigation_btn button{
+.navigation_btn button {
     box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 border-radius: 8px;
@@ -69,6 +70,10 @@ font-weight: 600;
 cursor: pointer;
 text-align: center;
 
+}
+.navigation_btn button a{
+text-decoration: none;
+color: rgb(13, 19, 33);
 }
 /* navigation style end here  */
 
@@ -139,6 +144,10 @@ padding: 10px 20px;
 cursor: pointer;
 text-align: center;
 }
+.bannar_button_content  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
 /* bannar section style end here  */
 
 /* header section style end here  */
@@ -225,6 +234,11 @@ opacity: 0.7;
     cursor: pointer;
     text-align: center;
     margin-top: 25px;
+    
+}
+.item_btn a{
+    text-decoration: none;
+    color: black;
 }
 .main_item_2{
     display: flex;
@@ -390,13 +404,16 @@ align-items: center;
     
 }
 .support_input{
-   width: 700px;
+   /* width: 700px; */
     margin: 0px auto;
     text-align: center;
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
 }
 .input_f_i{
-    padding: 10px 20px;
-    width: 70%;
+    padding: 11px 20px;
+    width: 40%;
     text-align: left;margin: 5px 10px;
     outline: none;
     box-sizing: border-box;
@@ -427,3 +444,36 @@ text-align: center;
 /* support style end here  */
 
 /* main section style end here  */
+/* Footer style start here  */
+.footer_section{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+
+
+.footer_content{
+        display: flex;
+        margin: 0px 130px;
+        justify-content: space-between;
+        padding: 20px 0px;
+     
+}
+.footer_item_2 li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.footer_item1{
+    padding: 10px;  
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+opacity: .8;
+}
+
+/* Footer style end here  */
